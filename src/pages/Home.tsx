@@ -1,1 +1,9 @@
-export const HomePage = () => <h1>Hello World</h1>;
+import { LoadingOverlay } from "@/components/UI/LoadingOverlay";
+
+export const HomePage = () => (
+  <>
+    <LoadingOverlay />
+
+    <h1>Hello World</h1>
+  </>
+);
